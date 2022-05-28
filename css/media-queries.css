@@ -1,0 +1,319 @@
+@media screen and (max-width: 1000px) {
+  body {
+    font-size: 1.3rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+    padding-bottom: 1rem;
+  }
+
+  h3 {
+    font-size: 4rem;
+  }
+
+  h4 {
+    font-size: 2.3rem;
+  }
+
+  h5 {
+    font-size: 2.1rem;
+  }
+
+  h6 {
+    font-size: 1.4rem;
+  }
+
+  .banner-date {
+    font-size: 1.5rem;
+  }
+
+  .banner-date .number {
+    font-size: 4rem;
+  }
+
+  #names::before {
+    height: 180px;
+    width: 180px;
+  }
+
+  #names::after {
+    height: 180px;
+    width: 180px;
+  }
+
+  .timer-number {
+    font-size: 2.5rem;
+  }
+
+  .wedding-pair-names {
+    max-width: 400px;
+  }
+
+  .wedding-pair-icon {
+    width: 2.5rem;
+  }
+
+  .textbox {
+    padding: 3rem 2rem 2rem 2rem;
+  }
+
+  .textbox:first-of-type::before {
+    left: -20px;
+    height: 150px;
+    width: 150px;
+  }
+  .textbox:last-of-type::after {
+    height: 250px;
+    width: 250px;
+    bottom: -50px;
+    right: -50px;
+  }
+
+  footer {
+    padding-top: 80px;
+    padding-bottom: 160px;
+  }
+
+  .telephone-number {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .banner {
+    background-position: right 35% bottom 50%;
+  }
+
+  .info-text {
+    width: 70%;
+  }
+
+  .events-textbox-wrapper {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+
+  .countdown-container {
+    flex-direction: column;
+    height: 300px;
+  }
+
+  .countdown-timer-container {
+    flex: 1.2 1 0;
+  }
+
+  .bottom-flowers {
+    width: 140%;
+  }
+
+  footer::after {
+    background-size: 140%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  h6 {
+    max-width: 70%;
+    letter-spacing: normal;
+  }
+
+  #names::before {
+    left: -100px;
+    height: 140px;
+    width: 140px;
+    transform: rotateZ(20deg);
+  }
+
+  #names::after {
+    right: -100px;
+    height: 140px;
+    width: 140px;
+    transform: rotateY(180deg) rotateZ(20deg);
+  }
+
+  .parents-names {
+    flex-direction: column;
+  }
+
+  .parents-names-bride {
+    margin-bottom: 1.3rem;
+  }
+
+  .telephone-container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .telephone-element {
+    margin: 1rem;
+  }
+
+  .telephone-element:first-of-type {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .countdown-container {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .bottom-flowers {
+    width: 180%;
+  }
+
+  footer::after {
+    background-size: 180%;
+  }
+
+  .confirmation-container {
+    width: 100%;
+  }
+
+  .confirmation-container p {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h3 {
+    font-size: 3rem;
+  }
+
+  .banner-date {
+    font-size: 1.2rem;
+  }
+
+  .banner-date .number {
+    font-size: 3rem;
+  }
+
+  #names::before {
+    top: -70px;
+    left: -40px;
+    height: 100px;
+    width: 100px;
+    transform: rotateZ(90deg);
+  }
+
+  #names::after {
+    top: 30px;
+    right: -60px;
+    height: 100px;
+    width: 100px;
+    transform: rotateY(180deg) rotateZ(0deg);
+  }
+
+  .wedding-pair-icon {
+    width: 2rem;
+  }
+
+  .bottom-flowers {
+    width: 250%;
+  }
+
+  footer::after {
+    background-size: 250%;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  #names::before,
+  #names::after {
+    background-image: none;
+  }
+
+  .countdown-container {
+    height: 400px;
+  }
+
+  .countdown-timer-container {
+    flex: 2 1 0;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .primary-color-header::after {
+    bottom: -0.5rem;
+  }
+
+  .secondary-color-header::after {
+    bottom: -0.5rem;
+  }
+
+  .info-text {
+    padding-bottom: 40px;
+  }
+
+  .event {
+    background-position: right 60% top 50%;
+    padding-top: 80px;
+    padding-bottom: calc(80px - 3rem);
+  }
+
+  .events-textbox-wrapper {
+    margin-top: 40px;
+  }
+
+  .event-row {
+    font-size: 1rem;
+  }
+
+  .textbox:first-of-type::before {
+    left: -6px;
+    height: 120px;
+    width: 120px;
+  }
+  .textbox:last-of-type::after {
+    height: 200px;
+    width: 200px;
+    bottom: -40px;
+    right: -40px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  h2 {
+    font-size: 2.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  h3 {
+    font-size: 2.6rem;
+  }
+
+  h6 {
+    font-size: 1.3rem;
+  }
+
+  .primary-color-header::after {
+    bottom: 0;
+  }
+
+  .secondary-color-header::after {
+    bottom: 0;
+  }
+
+  .wedding-pair-icon {
+    width: 1.8rem;
+  }
+
+  .event-rows-wrapper svg {
+    fill: var(--clr-white);
+    margin-right: 1rem;
+    width: 1.3rem;
+  }
+
+  footer {
+    padding-bottom: 120px;
+  }
+}
