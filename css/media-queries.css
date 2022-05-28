@@ -159,6 +159,14 @@
 }
 
 @media screen and (max-width: 540px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h3 {
+    font-size: 3rem;
+  }
+
   .countdown-container {
     width: 100%;
     margin-top: 0;
@@ -182,14 +190,6 @@
 }
 
 @media screen and (max-width: 480px) {
-  h1 {
-    font-size: 3.5rem;
-  }
-
-  h3 {
-    font-size: 3rem;
-  }
-
   .banner-date {
     font-size: 1.2rem;
   }
@@ -216,6 +216,7 @@
 
   .wedding-pair-icon {
     width: 2rem;
+    margin: 0 10px;
   }
 
   .bottom-flowers {
@@ -269,7 +270,7 @@
   }
 
   .textbox:first-of-type::before {
-    left: -6px;
+    left: -2px;
     height: 120px;
     width: 120px;
   }
@@ -282,17 +283,37 @@
 }
 
 @media screen and (max-width: 375px) {
+  body {
+    font-size: 1.1rem;
+  }
+
+  h1 {
+    font-size: 3.2rem;
+  }
+
   h2 {
     font-size: 2.5rem;
     padding-bottom: 1.5rem;
   }
 
   h3 {
-    font-size: 2.6rem;
+    font-size: 2.5rem;
   }
 
   h6 {
     font-size: 1.3rem;
+  }
+
+  .dot {
+    margin: 0 0.8rem;
+  }
+
+  .banner-date .number {
+    font-size: 2.5rem;
+  }
+
+  .info-text {
+    width: 75%;
   }
 
   .primary-color-header::after {
@@ -307,6 +328,14 @@
     width: 1.8rem;
   }
 
+  .events-textbox-wrapper {
+    padding: 20px;
+  }
+
+  .textbox {
+    padding: 2.5rem 1.6rem 1.6rem 1.6rem;
+  }
+
   .event-rows-wrapper svg {
     fill: var(--clr-white);
     margin-right: 1rem;
@@ -315,5 +344,11 @@
 
   footer {
     padding-bottom: 120px;
+  }
+}
+
+@media screen and (max-width: 310px) {
+  .info-text {
+    width: 98%;
   }
 }

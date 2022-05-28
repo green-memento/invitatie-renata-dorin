@@ -163,9 +163,11 @@ Banner Section
 .banner {
   min-height: 100vh;
   background: linear-gradient(#c7c4ac4d, rgba(0, 0, 0, 0.5)),
-    url("../assets/images/banner.jpg") center/cover no-repeat;
+    url("../assets/images/banner.jpg");
+  background-size: cover;
   background-position: top center;
   background-attachment: fixed;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -228,6 +230,7 @@ Banner Section
 .go-to-button {
   position: absolute;
   bottom: 10%;
+  border-radius: 50%;
 }
 
 .arrow-img {
@@ -292,8 +295,8 @@ svg.angel {
 
 .wedding-pair-names {
   display: flex;
-  justify-content: space-between;
-  flex-shrink: 0;
+  justify-content: center;
+  /* flex-shrink: 0; */
   width: 100%;
   max-width: 500px;
   margin-top: 1rem;
@@ -302,6 +305,7 @@ svg.angel {
 .wedding-pair-icon {
   width: 3rem;
   align-self: center;
+  margin: 0 30px;
 }
 
 .bottom-flowers {
@@ -323,6 +327,7 @@ Event
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
+  background-attachment: fixed;
   position: relative;
   z-index: 1;
   overflow-x: hidden;
@@ -473,10 +478,10 @@ footer::after {
 }
 
 .telephone-element {
-  flex: 1 1 0;
+  flex: 1 0;
   border: 1px solid var(--clr-white-o40);
   margin: 1rem 0.5rem;
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -622,4 +627,8 @@ Animations
 .heading-animation {
   animation-name: blink;
   animation-duration: 3s;
+}
+
+.bg-reset {
+  background-attachment: initial;
 }
