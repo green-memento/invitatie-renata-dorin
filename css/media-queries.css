@@ -235,7 +235,7 @@
   }
 
   .countdown-container {
-    height: 400px;
+    height: 360px;
   }
 
   .countdown-timer-container {
@@ -258,7 +258,7 @@
   .event {
     background-position: right 60% top 50%;
     padding-top: 80px;
-    padding-bottom: calc(80px - 3rem);
+    padding-bottom: calc(80px - 1.6rem);
   }
 
   .events-textbox-wrapper {
